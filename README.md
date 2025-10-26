@@ -67,3 +67,7 @@ kubectl proxy
 ### get token
 
 ./kubscripts/gettoken.sh
+
+## shut everything down
+
+- kind delete cluster --name wslkindmultinodes
