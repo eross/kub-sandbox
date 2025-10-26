@@ -51,3 +51,19 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0-r
 # Check the resources it created based on the new namespace created
 kubectl get all -n kubernetes-dashboard
 ```
+
+### start proxy
+
+kubectl proxy
+
+### create service account
+
+```
+./kubscripts/01-serviceacct.sh
+./kubscripts/02-servicebinding.sh
+./kubscripts/03-setsecret.sh
+```
+
+### get token
+
+./kubscripts/gettoken.sh
