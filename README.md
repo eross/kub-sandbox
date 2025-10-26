@@ -10,7 +10,7 @@ Key commands
 - kubectl get nodes
 - kubectl get all --all-namespaces
 - kind delete cluster --name wslkind
-- kind create cluster --name wslkind --config kind-3nodes.yaml
+- kind create cluster --name wslkind --config ./kubscripts/kind-3nodes.yaml
 - kubectl get nodes
 
 Check the services for the whole cluster
